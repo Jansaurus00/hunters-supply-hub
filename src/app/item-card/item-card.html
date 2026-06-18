@@ -1,0 +1,22 @@
+<div class="card">
+
+    <img [src]="item().image" class="item-img">
+
+    <h3>{{ item().name }}</h3>
+
+    <p class="type">
+        {{ item().type }}
+    </p>
+
+    <p class="desc">
+        {{ item().description }}
+    </p>
+
+    <p class="price">
+        {{ item().price}} Zenny
+    </p>
+    
+    <button (click)="addToCart()">
+        Add to Cart
+    </button>
+</div>

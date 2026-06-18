@@ -1,0 +1,12 @@
+<h1>Weapons</h1>
+
+<div class="grid">
+    
+    @for (weapon of shopService.weapons(); track weapon.name) {
+        <app-item-card
+        [item]="weapon"
+        (itemAdded)="shopService.addToCart($event)">
+        </app-item-card>
+    }
+    
+</div>

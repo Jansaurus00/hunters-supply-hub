@@ -1,0 +1,27 @@
+<h1>Cart</h1>
+
+<div class="cart">
+    @for (item of shopService.cart(); track $index) {
+        <div class="cart-item">
+
+            <div>
+                <strong>{{ item.name }}</strong>
+                <p>{{ item.type }}</p>
+                <p>{{ item.price }} Zenny</p>
+            </div>
+
+            <button (click)="shopService.removeFromCart($index)">
+                Remove
+            </button>
+        </div>
+    }
+</div>
+
+<hr>
+<h2>
+    Total: {{shopService.totalCost() }} Zenny
+</h2>
+
+<button (click)="shopService.clearCart()">
+    Clear Cart
+</button>

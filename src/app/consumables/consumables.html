@@ -1,0 +1,11 @@
+<h1>Consumables</h1>
+<div class="grid">
+    
+    @for (item of shopService.consumables(); track item.name) {
+        <app-item-card
+        [item]="item"
+        (itemAdded)="shopService.addToCart($event)">
+        </app-item-card>
+    }
+    
+</div>
