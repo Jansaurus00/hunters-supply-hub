@@ -33,7 +33,14 @@ export class HunterShop {
     { name: 'Mizutsune Armor', price: 8400, type: 'Bubble Fox Armor', image: 'images/armor/mizutsune.webp',description: 'Elegant armor inspired by the graceful Mizutsune.'},
     { name: 'Rajang Armor', price: 9800, type: 'Golden Beast Armor', image: 'images/armor/rajang.png',description: 'Powerful armor forged from the fearsome Rajang.'},
     { name: 'Barioth Armor', price: 7600, type: 'Ice Fang Armor', image: 'images/armor/barioth.png',description: 'Ice-resistant armor from the swift Barioth.'},
+    { name: 'Sergeios Armor', price: 8100, type: 'Thousand Blade Wyvern Armor', image: 'images/armor/seregios.webp',description: 'Sharp, agile armor inspired by Seregios scales'},
+    { name: 'Goss Harag Armor', price: 7600, type: 'Snow Oni Beast Armor', image: 'images/armor/gossharag.webp',description: 'Heavy Armor built from the brutal Goss Harag.'},
+    { name: 'Bazelgeuese Armor', price: 8000, type: 'Bomber Wyvern Armor', image: 'images/armor/bazel.webp',description: 'Explosive Armor from the volatile Bazelgeuse.'},
+    { name: 'Astalos Armor', price: 8400, type: 'Electric Wyvern Armor', image: 'images/armor/astalos.webp',description: 'Lightning-infused armor crafted from Astalos.'},
+    { name: 'Glavenus', price: 8300, type: 'Slashing Wyvern Armor', image: 'images/armor/glavenus.webp',description: 'A scorching armor forged from the Slashing Wyvern Glavenus'},
     { name: 'Lunagaron Armor', price: 9100, type: 'Frost Wolf Armor', image: 'images/armor/lunagaron.webp',description: 'Armor that channels the icy ferocity of Lunagaron.'},
+    { name: 'Kushala Daora Armor', price: 9800, type: 'Steel Dragon Armor', image: 'images/armor/kushala.webp',description: 'Wind-powered armor from the Steel Dragon Kushala Daora'},
+    { name: 'Teostra Armor', price: 10000, type: 'Flame Emperor Armor', image: 'images/armor/teostra.webp',description: 'Fire-based armor forged from the Flame Emperor Teostra.'},
     { name: 'Gore Magala Armor', price: 10500, type: 'Frenzy Dragon Armor', image: 'images/armor/goremagala.png',description: 'Dark armor forged from the mysterious Gore Magala, granting a sinister appearance and formidible power.'},
     { name: 'Nergigante Armor', price: 11000, type: 'Elder Devourer Armor', image: 'images/armor/nergigante.png',description: 'A violent legendary armor that fights for order inspired by the Extinction Dragon, Nergigante.'},
     { name: 'Malzeno Armor', price: 12000, type: 'Vampire Armor', image: 'images/armor/malzeno.webp',description: 'An armor made for a knight who once fought for their home inspired by the Royal Silver Dragon, Malzeno.'}
@@ -54,6 +61,13 @@ export class HunterShop {
     { name: 'Whetstone', price: 40, image: 'images/consumables/whetstone.png', type: 'Tools'},
     { name: 'Shock Trap', price: 100, image: 'images/consumables/shocktrap.png', type: 'Traps'},
     { name: 'Large Barrel Bomb', price: 120, image: 'images/consumables/largebarrelbomb.png', type: 'Bombs'},
+    { name: 'Binoculars', price: 100, image: 'images/consumables/binoculars.png', type: 'Tools'},
+    { name: 'Cool Drink', price: 60, image: 'images/consumables/cooldrink.png', type: 'Enhancement'},
+    { name: 'Hot Drink', price: 60, image: 'images/consumables/hotdrink.png', type: 'Enhancement'},
+    { name: 'BBQ Spit', price: 50, image: 'images/consumables/bbqspit.png', type: 'Tools'},
+    { name: 'Tranq Bomb', price: 40, image: 'images/consumables/tranqbomb.png', type: 'Traps'},
+    { name: 'Nulberry', price: 30, image: 'images/consumables/nulberry.png', type: 'Restoration'},
+    { name: 'Boomerang', price: 50, image: 'images/consumables/boomerang.png', type: 'Tools'},
   ]);
 
   cart = signal<any[]>([]);
